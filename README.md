@@ -5,6 +5,12 @@
 * Unzip external.rar
 * CMake is required to generate build files
 
+## Technologies
+Project is created with:
+* C++/C#
+* OpenGL
+* GLSL
+
 ## Gameplay
 
 * ASWD are used to move around
