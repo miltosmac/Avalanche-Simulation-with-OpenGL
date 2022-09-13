@@ -1,5 +1,7 @@
 # Avalanche Simulation with OpenGL
 
+CMake is required to generate build files
+
 *ASWD are used to move around
 
 *Mouse is used to look around
