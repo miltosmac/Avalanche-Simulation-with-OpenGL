@@ -1,1 +1,1 @@
-# Avalanche-Simulation-with-OpenGL
+# Avalanche Simulation with OpenGL
