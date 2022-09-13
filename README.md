@@ -1,5 +1,7 @@
 # Avalanche Simulation with OpenGL
 
+## Setup
+
 * Unzip external.rar
 * CMake is required to generate build files
 
