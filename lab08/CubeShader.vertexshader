@@ -1,0 +1,15 @@
+#version 330 core
+
+layout(location = 0) in vec3 vertexPosition_modelSpace;
+layout(location = 1) in vec3 vertexNormal_modelSpace;
+
+out vec3 Normal;
+uniform mat4 M;
+uniform mat4 PV;
+
+void main() {
+    // vertex position
+    Normal = vertexNormal_modelSpace;
+    gl_Position =  PV* M* vec4(vertexPosition_modelSpace, 1);
+
+    }

@@ -1,0 +1,12 @@
+#version 330 core
+
+out vec4 fragmentColor;
+
+in vec3 Normal;
+
+uniform sampler2D snow_texture;
+
+void main() {
+    //fragmentColor = vec4(texture(snow_texture, vec2(1)).rgb, 1.0f);
+    fragmentColor = vec4(1.0f, 1.0f, 1.0f, 1.0f);
+}
